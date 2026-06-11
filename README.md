@@ -108,6 +108,63 @@ The following graph shows the variation of Shannon Capacity with SNR for differe
 ![Shannon Capacity Graph](Shannon%20Fano%20Graph.png)
 
 
+## 📊 Spectral Efficiency for Different Bandwidths
+
+The following figure illustrates the variation of **Spectral Efficiency (R)** with **User Fraction (UF)** for different bandwidths and scaling factors in a 6G Sub-Tera Hertz communication system.
+
+### Mathematical Model
+
+The Signal-to-Interference-plus-Noise Ratio (SINR) for user \(y\) is defined as:
+
+$$
+S(y)=\frac{P_A G_A G_U S_F U_F}
+{(N_0W+I)L(y)}
+$$
+
+where:
+
+| Parameter | Description |
+|------------|------------|
+| $P_A$ | Transmitted Power |
+| $G_A$ | Antenna Gain at Base Station |
+| $G_U$ | Antenna Gain at User End |
+| $S_F$ | Shadow Fading |
+| $U_F$ | User Fraction |
+| $N_0$ | Noise Power Spectral Density |
+| $W$ | Channel Bandwidth |
+| $I$ | Interference |
+| $L(y)$ | Channel Loss |
+
+The Spectral Efficiency is calculated as:
+
+$$
+R=\log_2(1+S(y))
+$$
+
+### Simulation Parameters
+
+- **Frequency Range:** 100 GHz – 300 GHz (Sub-THz)
+- **Bandwidths:** 10 MHz and 20 MHz
+- **Scaling Factors:** 0.20, 0.22, 0.24
+
+### Output Graph
+
+![Spectral Efficiency for Different Bandwidths](Spectral%20Efficiency%20for%20different%20Bandwidths.png)
+
+### Key Observations
+
+✅ Spectral efficiency increases with increasing **User Fraction (UF)**.
+
+✅ Higher **Scaling Factors** provide better spectral efficiency.
+
+✅ For a constant user fraction, spectral efficiency is higher for larger scaling factors.
+
+✅ The graph demonstrates how bandwidth allocation and user density affect the performance of future **6G Sub-Tera Hertz communication systems**.
+
+### Conclusion
+
+The simulation highlights the relationship between user fraction, scaling factor, and bandwidth in determining spectral efficiency. These results are useful for designing high-capacity and energy-efficient 6G wireless networks operating in the Sub-THz spectrum.
+
 
 ## Results
 
