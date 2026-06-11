@@ -23,16 +23,16 @@ Where:
 
 The SINR (Signal-to-Interference-plus-Noise Ratio) of the 6G Sub-Tera Hertz system is defined as:
 
-\[
+$$
 S(y)=\frac{P_A G_A G_U S_F U_F}
 {(N_0W+I)L(y)}
-\]
+$$
 
 The Spectral Efficiency is given by:
 
-\[
+$$
 R=\log_2\left(1+S(y)\right)
-\]
+$$
 
 ### Parameters
 
