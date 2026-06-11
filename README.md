@@ -18,6 +18,45 @@ Where:
 - B = Bandwidth (Hz)
 - SNR = Signal-to-Noise Ratio (Linear Scale)
 
+
+## Sub-Tera Hertz System
+
+The SINR (Signal-to-Interference-plus-Noise Ratio) of the 6G Sub-Tera Hertz system is defined as:
+
+\[
+S(y)=\frac{P_A G_A G_U S_F U_F}
+{(N_0W+I)L(y)}
+\]
+
+The Spectral Efficiency is given by:
+
+\[
+R=\log_2\left(1+S(y)\right)
+\]
+
+### Parameters
+
+| Symbol | Description |
+|----------|----------|
+| S(y) | SINR for user y |
+| Pₐ | Transmitted Power |
+| Gₐ | Antenna Gain at Base Station |
+| Gᵤ | Antenna Gain at User End |
+| Sᶠ | Shadow Fading |
+| Uᶠ | User Fraction |
+| N₀ | Noise Power Spectral Density |
+| W | Channel Bandwidth |
+| I | Interference |
+| L(y) | Channel Loss |
+
+### Frequency Range
+
+**100 GHz – 300 GHz (Sub-THz Band)**
+
+The Sub-Tera Hertz spectrum is considered one of the key technologies for future 6G systems due to its capability to support ultra-high data rates, low latency, and massive connectivity.
+
+
+
 ---
 
 ## MATLAB Code
